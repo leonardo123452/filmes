@@ -1,0 +1,132 @@
+/* Estilo para o corpo da página */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilo para o cabeçalho */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 36px;
+}
+
+/* Estilo para a barra de navegação */
+nav {
+    background-color: #444;
+    text-align: center;
+    padding: 10px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 20px;
+    font-size: 18px;
+}
+
+/* Estilo para os links de navegação quando o mouse está sobre eles */
+nav a:hover {
+    color: #e50914;
+}
+
+/* Estilo para a seção de banner */
+section.banner {
+    text-align: center;
+}
+
+.banner img {
+    max-width: 100%;
+    height: auto;
+    margin-top: 20px;
+}
+
+.banner h2 {
+    font-size: 24px;
+    margin-top: 20px;
+}
+
+/* Estilo para os botões de chamada para ação (CTA) */
+.cta-button {
+    background-color: #e50914;
+    color: #fff;
+    padding: 15px 30px;
+    font-size: 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 20px;
+    display: inline-block;
+}
+
+.cta-button:hover {
+    background-color: #c40611;
+}
+
+/* Estilo para a seção de recursos */
+section.features {
+    background-color: #fff;
+    padding: 40px 0;
+}
+
+.feature {
+    text-align: center;
+    margin: 20px;
+    padding: 20px;
+}
+
+.feature img {
+    max-width: 100%;
+    height: auto;
+}
+
+h2 {
+    font-size: 24px;
+    margin-top: 20px;
+}
+
+/* Estilo para a seção de categorias */
+section.categories {
+    padding: 40px 0;
+}
+
+.category {
+    text-align: center;
+    margin: 20px;
+}
+
+.category img {
+    max-width: 100%;
+    height: auto;
+}
+
+h3 {
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+/* Estilo para o rodapé */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+/* Estilo para os links no rodapé */
+footer a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 20px;
+}
+
+/* Estilo para os links no rodapé quando o mouse está sobre eles */
+footer a:hover {
+    color: #e50914;
+}
